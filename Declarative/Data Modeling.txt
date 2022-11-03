@@ -1,0 +1,36 @@
+__**Data Modeling**__
+
+**Challenge I**
+Create a new Custom Object called Class using the Object Manager. Check all the optional features except Enable Licensing. Launch the Custom Tab Wizard and give it the Apple tab style.
+
+**Challenge II**
+Create a new global Picklist Value Set that is named "Subjects". Populate it with the following values:
+Algebra
+Geometry
+Precalculus
+Calculus
+Geology
+Biology
+Chemistry
+Physics
+World Geography
+World History
+American History
+Government
+Macroeconomics
+
+**Challenge III**
+Create a new Picklist field on our Class Custom Object. It should be named "Subject" and should use our global Picklist Value Set we made in Challenge II. Make this field required.
+
+**Challenge IV**
+Create a Junction Object between Class and Contact. Name this Junction Object "Class Roster". Use the Schema Builder to create this Junction Object.
+
+**Challenge V**
+On the Class object, create a Lookup Field to User named "Assigned Teacher".
+
+**Elite Challenge I**
+Create a picklist field on Class Roster called Status. It should have the following values:
+Waitlist
+Enrolled
+Cancelled
+Create a Roll-Up Summary field on Class called "Students Enrolled". This should summarize the count of Class Roster detail records, but only for records that have a status of Enrolled.

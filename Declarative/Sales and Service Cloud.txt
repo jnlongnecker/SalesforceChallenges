@@ -1,0 +1,16 @@
+__**Sales and Service Cloud**__
+
+**Challenge I**
+Create a Case Assignment Rule to assign cases to yourself if they come from the Web.
+
+**Challenge II**
+Create an Auto Response Rule for all Web cases that will send an acknowledgement email.
+
+**Challenge III**
+Create a new Path for your Leads. On the Open - Not Contacted step, place contact information for the lead. On the Working - Contacted step, place Industry, Annual Revenue and No. of Employees on the step.
+
+**Challenge IV**
+Create a new Pricebook called Employee Discount. Make a new price for all the Trailhead default Products in the Employee Discount pricebook that is less than the price in the Standard Pricebook.
+
+**Elite Challenge I**
+Create a Support Process called VIP Process and associate it with a new record type called VIP. This Support Process should only have the New, Escalated and Closed (Closed) values for Status.

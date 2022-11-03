@@ -1,0 +1,26 @@
+__**Security**__
+
+**Challenge I**
+Create a new Profile called Teacher. This profile should have Read Only access to Contact and Class Roster, Read and Edit access to Class, and No Access to Accounts. Make sure it uses the Salesforce license.
+
+**Challenge II**
+Create a Permission Set called Senior Teacher. This Permission Set should give Edit access to Contact and Create and Delete access to Class.
+
+**Challenge III**
+Create 3 new Users. All 3 should have the Teacher Profile and 1 should have the Senior Teacher Permission Set.
+
+**Challenge IV**
+Set the Organization Wide Defaults for Class to Private. Create a Sharing Rule for Class to share with the User that is the Assigned Teacher for the Class.
+
+**Challenge V**
+Create a role hierarchy. It should have 4 roles, in the following tiered order: 
+Principal
+Vice Principal
+Senior Teacher, Teacher
+Assign the appropriate Senior Teacher or Teacher role to the 3 users you created in Challenge III.
+
+**Challenge VI**
+In your Teacher profile, change the permissions on the Assigned Teacher field to be Read Only.
+
+**Elite Challenge I**
+Go back to your Assigned Teacher field in Class. Create a Lookup Filter on it so that it will only show Users with the Teacher profile.

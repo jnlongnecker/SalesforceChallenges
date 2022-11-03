@@ -1,0 +1,46 @@
+**__Visualforce Challenges__**
+
+**Challenge I**
+Create a Visualforce page that displays a single Account, specified as a parameter in the URL.
+
+**Challenge II**
+Modify your Visualforce page to display a paginated table of Accounts.
+
+**Challenge III**
+Add functionality to your Visualforce page to add a greeting to the page. This greeting should include the name of the Account specified as a parameter in the URL, and should display as an alert after clicking a button.
+
+**Challenge IV**
+Modify your Visualforce page to display a single Account, but this time the Account should always be the same, regardless of the parameter in the URL. You may not use a Standard Controller.
+
+**Challenge V**
+Add to your Visualforce page an About Me section. This should simply be a paragraph about yourself. However, this paragraph should be translated to Spanish if the current viewing user has their language set to Spanish. Download this creation as a PDF.
+
+**Challenge VI**
+Change your Visualforce page back to an HTML page and style your wonderous Visualforce creation with CSS.
+
+**Challenge VII**
+Create a Visualforce page that displays an Account based off of user input.
+
+**Challenge VIII**
+Add to your Visualforce page the functionality to display all related Contacts of the Account as an unformatted list of names.
+
+**Challenge IX**
+Create a Visualforce page that displays all Accounts in the system and all their related Contact names in the same table. The Contact names should be separated by a comma and a space.
+
+**Challenge X**
+Create a second Visualforce page that takes in some user input to filter Accounts by. Once this input is submitted, your page should display the previous Visualforce page you made and use the filter to filter the list of all Accounts.
+
+**Challenge XI**
+On your Visualforce page with all Accounts, implement a search feature. This feature should update the list of all Accounts with each character typed.
+
+**Challenge XII**
+Modify your table to support inline editing.
+
+**Challenge XIII**
+In your Visualforce page created in Challenge VII, modify your page to only display the Account and Contact information when an Account has been input. HINT: ||Use the .childComponents.add() method!||
+
+**Challenge XIV**
+Make use of the transient keyword and other optimizations to improve the performance of your 2 page Visualforce creation without changing any of the functionality.
+
+**Challenge XV**
+Write comprehensive tests for your 2 page Visualforce creation.

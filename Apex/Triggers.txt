@@ -1,0 +1,22 @@
+__**Triggers**__
+
+**Challenge I**
+Create a trigger to prevent the deletion of Accounts with Contacts.
+
+**Challenge II**
+Create a trigger to set a default value for Email on Contacts that are inserted without one.
+
+**Challenge III**
+Create a trigger to create a new related Contact when an Account is inserted.
+
+**Challenge IV**
+Create a trigger to update the phone field of the related Account when a Contact's phone field is updated. The Account and Contact should end up having the same value in their phone fields.
+
+**Elite Challenge I**
+Universal Containers has recently had some issues with Contacts being inserted with duplicate phone numbers by accident. A developer has recently cleaned all Contacts from having duplicate phone numbers, but they want you to make sure this doesn't happen in the future. Use a trigger to solve the above problem.
+
+**Elite Challenge II**
+Universal Containers has recently had some issues with Cases that they need solving. Their first issue is that Cases are being created with their Status not set to New. All new Cases should have New as their Status. Their second issue is that support representatives are forgetting to change the status to Working, but are adding in Internal Comments. Make sure that whenever the Internal Comments are updated, the status is also changed to Working if it's New.
+
+**Elite Challenge III**
+Universal Containers always uses the Installation: Portable Product for all of their Orders. Make it so that this Product is automatically added to a new Order if it's not already there.

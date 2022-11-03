@@ -1,0 +1,38 @@
+**__Lightning Web Component Challenges__**
+
+**Challenge I**
+Create a web component that has a place for input and a button that says Add. When input is placed in the input tag, pressing the Add button, the text should be added to a list that the component displays. Pressing Add multiple times should add more input to the list.
+
+**Challenge II**
+Create a web component that displays text in a header. This component should have a single button that reveals a place to put input. Input put in here should change the text in the header. Clicking the button toggles the visibility of the input.
+
+**Challenge III**
+Create a web component with 3 buttons and a square. There should be a button for 3 colors: Red, Green, and Blue. Clicking on a button should change the color of the square to the color that was clicked. Change the color using CSS classes to do so.
+
+**Challenge IV**
+Configure the component created in Challenge III to be able to be used in a lightning page, and upload it to your org and place it on a page using the Lightning App Builder.
+
+**Challenge V**
+Create a component for your favorite bands. The information to display an individual band should be its own component, and should accept input from a parent on what information to display. Minimum data to include: An image of the band, the band name, and a short description of the band.
+
+**Challenge VI**
+Modify the components created in Challenge V. Create a new component displayed to the right of all of the components for your favorite bands. Instead of displaying the description in the band component, display a button that says "Learn More". When the "Learn More" button is clicked, display the description in the sidebar component on the right. There should only be 1 sidebar component.
+
+**Challenge VII**
+Create a component that displays information from a Contact in your org.
+
+**Challenge VIII**
+Create a component that specifically displays information from the Contact on the same record page as your component. Use @wire.
+
+**Challenge IX**
+Write Jest tests for the components created in Challenge VII and Challenge VIII.
+
+**Challenge X**
+Configure all of the components used in these challenges for use in your org. Import them into your org and place them on Lightning Pages.
+
+**Elite Challenge I**
+Create a component that has input for a red, green, and a blue value as sliders. The resulting color should display to the right of these inputs. Below these inputs should be a 5x5 grid of white squares. Clicking on a square should change it to the color created by the RGB inputs.
+
+**Elite Challenge II**
+Create a shopping cart app. There should be a checkbox to check the item off the list. An item checked should be greyed out and placed at the bottom of the list. The shopping cart should be persistent. Save the cart items and their status to Salesforce. When loading the app, the cart should automatically retrieve the shopping cart of the context user.
+

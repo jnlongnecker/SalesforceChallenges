@@ -1,0 +1,19 @@
+__**Intro To Apex**__
+
+**Challenge I**
+Create a class called Calculator with a single method called Add. This method should take 2 Integer parameters and return their sum.
+
+**Challenge II**
+Create a method called Multiply that takes 2 Integer parameters and returns their product. You are not allowed to use the * operator to multiply the two Integers, and you must use your Add method you created in Challenge I.
+
+**Challenge III**
+Create a method called Divide that takes 2 Integer parameters and returns their quotient (Parameter 1 / Parameter 2). Once again, you are not allowed to use the / operator, and you must use your Add method. For this challenge, do not consider if zero is the divisor.
+
+**Challenge IV**
+Modify your Divide method so that it will return 0 if zero is the divisor.
+
+**Challenge V**
+Create a method called Mod that takes 2 Integer parameters and returns their remainder. You are not allowed to use the Math.Mod() method.
+
+**Elite Challenge I**
+Create a method called Calculate that takes in a String in proper mathematical format (eg. 1 + 1) and returns the result. 

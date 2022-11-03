@@ -1,0 +1,31 @@
+__**Flows**__
+
+Before working on the Flow challenges, make sure you have done **ALL** of the prior challenges. If you have not, create a new Trailhead Playground and install the package 04t8c000000ucltAAA in the Trailhead Starter app. Be sure to use the App Init tab in the School app to do initial setup for testing things out.
+
+**Challenge I**
+Create a Screen Flow that will create a Class Roster record from user input.
+
+**Challenge II**
+Modify that Flow to allow for a Class to be input from outside of the flow. If it is filled out, use this value and don't get user input for the desired Class.
+
+**Challenge III**
+Create a Screen Flow that will create multiple Class Roster records. It should accept a Class from outside input, and it should call the Flow created in Challenge I, passing in the Class it recieved from outside input. After each call of the subflow, ask the user if they want to add another Student to the class.
+
+**Challenge IV**
+After ensuring your Screen Flow will accept input from an Object Quick Action, create an Object Quick Action on Class to launch the Screen Flow created in Challenge III.
+
+**Challenge V**
+Create a Record Trigger flow to send an email to new students (Contacts) that are added to a Class. The email should be different depending on if they are enrolled or waitlisted. Do not send emails to cancelled students.
+
+**Challenge VI**
+Create a Record Trigger flow to send an email to students who get enrolled who were previously waitlisted. This flow should also send a different email to students who get cancelled.
+
+**Elite Challenge I**
+Create a new Number field on Class called Capacity. Make this field required.
+Create a flow that will allow a user to add a student to a class, but ensure the only classes the user can select from are classes that are under capacity. Make sure to reuse the flow created in Challenge I.
+
+**Elite Challenge II**
+Create a flow that will make sure all new students added to a class once it has reached capacity are waitlisted.
+
+**Elite Challenge III**
+Create a flow to share all records assigned to a particular Teacher with that Teacher.

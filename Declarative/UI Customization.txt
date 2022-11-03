@@ -1,0 +1,59 @@
+__**UI Customization**__
+
+**Challenge I**
+Create a new Lightning Application. Put the following tabs on it:
+Home
+Class
+Contact
+Account
+
+**Challenge II**
+Create the following Record Types on Class:
+Math
+Science
+History
+Configure the Subjects picklist field to show only the following values for the associated Record Type:
+Math
+- Algebra
+- Geometry
+- Precalculus
+- Calculus
+
+Science
+- Geology
+- Biology
+- Chemistry
+- Physics
+
+History
+- World Geography
+- World History
+- American History
+- Government
+- Macroeconomics
+
+**Challenge III**
+Create the following fields on Class:
+Essays (Number field)
+Projects (Number field)
+Exams (Number field)
+
+**Challenge IV**
+Create 3 Page Layouts for Class. Each page layout should show every field **NOT** listed underneath them:
+Math Layout
+- Essays
+- Projects
+Science Layout
+- Essays
+History Layout
+- Projects
+Assign each Page Layout to the Record Type of the same name.
+
+**Challenge V**
+Create a new List View for all 3 Record Types of Class. Each List View should only show records of that Record Type.
+
+**Challenge VI**
+Create a new Object Quick Action on Class. It should be named Enroll Student and it should create a new Class Roster record. If you completed the Elite Challenge of Data Modeling, it should automatically set the Status picklist field to Enrolled.
+
+**Elite Challenge I**
+Only display the Students Enrolled roll-up summary field created in the Elite Challenge of Data Modeling on Class if there is more than 1 student enrolled in the class.

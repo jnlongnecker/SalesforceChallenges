@@ -1,0 +1,20 @@
+__**Data Quality and Management**__
+
+**Challenge I**
+Create a Validation Rule for Contact. It should require that at least 1 of the phone fields has been filled out.
+
+**Challenge II**
+Create a Validation Rule for Contact. It should ensure the Contact is at least 10 years old if a Birthdate is supplied.
+
+**Challenge III**
+Create a Validation Rule for Contact. It should ensure that the email, if one is given, is in a valid format.
+
+**Challenge IV**
+Upload the Contacts in the following .csv file to Salesforce.
+
+**Elite Challenge I**
+Create a Custom Object called Zip Code. Each record have a name corresponding to one of the zip codes our school serves:
+77429
+77431
+77433
+Create a Validation Rule on Contact that ensures the zip code put in the Mailing Zip/Postal Code field matches a zip code saved in a Zip Code custom object.
